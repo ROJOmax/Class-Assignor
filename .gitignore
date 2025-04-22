@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+*.log
+.env
+
+# Vite build output
+/frontend/dist/
+
+# Environment variables
+/frontend/.env
+/backend/.env
+
+# IDE files
+.vscode/
+.idea/
