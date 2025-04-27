@@ -4,7 +4,6 @@ import jwt from "jsonwebtoken";
 import { User } from "../models/User.js";
 import { loginRateLimiter } from "../middleware/rateLimitMiddleware.js";
 import { sanitizeInputs } from "../middleware/sanitizeMiddleware.js";
-import { IoRoseOutline } from "react-icons/io5";
 
 const router = express.Router();
 
